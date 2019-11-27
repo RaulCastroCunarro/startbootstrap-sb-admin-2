@@ -52,23 +52,24 @@
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Discos
+        CRUD
       </div>
 
       <!-- Divider -->
       <hr class="sidebar-divider">
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link" href="private/discos/index.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Listado Discos</span></a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="private/discos/formulario.html">
-          <i class="fas fa-compact-disc"></i>
-          <span>Introducir Discos</span></a>
-      </li>
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#discos" aria-expanded="true" aria-controls="collapseTwo">
+            <i class="fas fa-compact-disc"></i>
+            <span>Discos</span>
+          </a>
+          <div id="discos" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a class="collapse-item" href="private/discos/formulario.html">Crear Discos</a>
+              <a class="collapse-item" href="private/discos/index.html">Ver Discos</a>
+            </div>
+          </div>
+        </li>
 
       <!-- Heading -->
       <div class="sidebar-heading">
@@ -177,7 +178,7 @@
           <!-- Topbar Search -->
           <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
             <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <input type="text" class="form-control bg-light border-0 small" placeholder="Buscar..." aria-label="Search" aria-describedby="basic-addon2">
               <div class="input-group-append">
                 <button class="btn btn-primary" type="button">
                   <i class="fas fa-search fa-sm"></i>
@@ -198,7 +199,7 @@
               <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
                 <form class="form-inline mr-auto w-100 navbar-search">
                   <div class="input-group">
-                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Buscar..." aria-label="Search" aria-describedby="basic-addon2">
                     <div class="input-group-append">
                       <button class="btn btn-primary" type="button">
                         <i class="fas fa-search fa-sm"></i>
@@ -640,7 +641,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+            <span>Copyright &copy; Raúl Castro Cuñarro</span>
           </div>
         </div>
       </footer>

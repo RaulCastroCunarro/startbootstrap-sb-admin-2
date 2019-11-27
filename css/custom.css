@@ -1,4 +1,28 @@
-.img-tabla{
-    width: 10vw;
-    height: 10vh;
+table img{
+    width: 100px;
+    height: 100px;
+}
+
+input[type="text"]:valid, input[type="email"]:valid, input[type="url"]:valid, input[type="date"]:valid{
+    color: #6e707e;
+    background-color: #fff;
+    border-color: #bac8f3;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #4e73df40;
+}
+
+input[type="text"]:focus:invalid, input[type="email"]:focus:invalid, input[type="url"]:focus:invalid, input[type="date"]:focus:invalid{
+    color: #e74a3b;
+    background-color: #fff;
+    border-color: rgba(231,74,59,0.452);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(231,74,59,0.452);
+}
+
+#formulario{
+    width: 18rem;
+}
+
+.login{
+    height: 65vh;
 }
